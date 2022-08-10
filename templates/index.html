@@ -22,7 +22,7 @@ div {text-align: center;}
 <body>
  
      
-<div class="" style="background-color:cyan;" >
+<div class="" style="background-color:cyan; border-radius:15px;margin-left:5px;margin-right:5px;" >
 <div class="clearfix">
            
 <div class="col-md-12">
@@ -41,7 +41,7 @@ div {text-align: center;}
 <form action="{{ url_for('predict')}}"method="get">
 
  
-    <div class="mb-3">
+    <div class="mb-3"style="text-size:15px">
   <label for="exampleFormControlInput1" class="form-label">Annual Income in $(15-137)</label>
       <input type="number" name="income" id="income" value="" min="15" max="137" placeholder="" required="required">
       </div>
@@ -52,7 +52,7 @@ div {text-align: center;}
   
   <div class="col-auto">
  
-    <button type="submit" class="btn btn-primary">Predict Type Of Customer</button>
+    <button type="submit" class="btn btn-primary" style="border-radius:15px;">Predict Type Of Customer</button>
   </div>
 </form>
 
